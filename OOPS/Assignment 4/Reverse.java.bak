@@ -1,0 +1,17 @@
+
+class Reverse{	
+public static void main(String args[]){
+	String str = "ABCDEFGHIJKLMNOPGRSTUVWXYZ";
+	String revStr = "";
+	for(int i=str.length();i>0;i--){
+		revStr+= str.charAt(i);
+	}
+	System.out.println("Reverse = "+revStr);
+
+}
+}
+
+
+
+
+
