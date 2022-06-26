@@ -1,0 +1,1 @@
+exports.previousnum=function(num) { return num-1;}
